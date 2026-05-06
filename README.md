@@ -17,13 +17,6 @@
 **Article scientifique d'origine :** Mendoza Palechor, F. & de la Hoz Manotas, A. (2019). *Dataset for estimation of obesity levels based on eating habits and physical condition in individuals from Colombia, Peru and Mexico*. Data in Brief, 25, 104344.
 Disponible librement : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6710633/
 
-**Téléchargement (Python) :**
-```python
-from ucimlrepo import fetch_ucirepo
-data = fetch_ucirepo(id=544)
-X = data.data.features
-y = data.data.targets
-```
 
 **Licence :** Creative Commons Attribution 4.0 International (CC BY 4.0) — utilisation libre.
 
